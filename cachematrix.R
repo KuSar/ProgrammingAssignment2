@@ -53,7 +53,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## cache, otherwise the inveres gets computed and cached
 ## input: makeCacheMatrix
 ## output: inverse
-cacheSolve <- function(x, ...){
+cacheSolve <- function(x, ...) {
 
     # try to get the cached inverse
     inverse <- x$getInverse()
